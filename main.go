@@ -52,5 +52,5 @@ func main() {
 	operador := leerEntrada()
 	fmt.Println("entrada", entrada, "operador", operador)
 	c := calc{}
-	fmt.Println(c.operate(entrada, operador))
+	fmt.Println("El resultado es:", c.operate(entrada, operador))
 }
